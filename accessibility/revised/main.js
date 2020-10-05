@@ -16,6 +16,12 @@ showHideBtn.onclick = function() {
   }
 };
 
+document.onkeydown = function(e) {
+  if(e.keyCode === 13) { // The Enter/Return key
+    document.activeElement.click();
+  }
+};
+
 // functionality for adding a new comment via the comments form
 
 const form = document.querySelector('.comment-form');
