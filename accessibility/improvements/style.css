@@ -48,11 +48,12 @@ div[class="header"] {
 
 div[class="nav"] {
   background-color: #FFFFFF;
+  font-weight: bold;
   height: 40px;
   background-color: ff80ff;
   display: flex;
   padding: 1% 0;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 div[class="nav"] ul {
